@@ -41,7 +41,7 @@ function App() {
             <h1>Todo App</h1>
             <h2>Add New Todo</h2>
             <div>
-                <input type="text" placeholder="Add Text" style={{ width: "20%", margin: "1rem" }} value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
+                <input type="text" placeholder="Add Text" style={{ width: "50%", margin: "1rem" }} value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
                 
                 <DatePicker placeholderText="Start Date" style={{ margin: "0.7rem" }} selected={newEvent.start} onChange={(start) => setNewEvent({ ...newEvent, start })} />
                 <br/>
