@@ -1,5 +1,5 @@
 body{
-  background: #D1FAE5;
+  background: #FEF3C7;
 }
 
 .App {
@@ -7,9 +7,10 @@ body{
 }
 
 input{
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 0.7rem;
+  padding: 0.3rem;
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  border: 0px;
 }
 
 

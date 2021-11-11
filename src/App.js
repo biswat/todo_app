@@ -43,9 +43,9 @@ function App() {
             <div>
                 <input type="text" placeholder="Add Text" style={{ width: "20%", margin: "1rem" }} value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
                 
-                <DatePicker placeholderText="Start Date" style={{ marginRight: "1rem" }} selected={newEvent.start} onChange={(start) => setNewEvent({ ...newEvent, start })} />
-                <DatePicker placeholderText="End Date" style={{ marginRight: "1rem" }} selected={newEvent.end} onChange={(end) => setNewEvent({ ...newEvent, end })} />
-                <button stlye={{ margin: "1rem" }} onClick={handleAddEvent}>
+                <DatePicker placeholderText="Start Date" style={{ margin: "0.7rem" }} selected={newEvent.start} onChange={(start) => setNewEvent({ ...newEvent, start })} />
+                <DatePicker placeholderText="End Date" style={{ margin: "0.7rem" }} selected={newEvent.end} onChange={(end) => setNewEvent({ ...newEvent, end })} />
+                <button stlye={{ margin: "1rem", padding: "0.3rem", fontSize: "1.3rem"}} onClick={handleAddEvent}>
                     Add Todo
                 </button>
             </div>
