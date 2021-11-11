@@ -13,5 +13,17 @@ input{
   border: 0px;
 }
 
+.addTodoBtn{
+  background-color: #4F46E5;
+  color: #fff;
+  border-radius: 0.3rem;
+  border: 0px;
+  box-shadow: 5px 5px 10px 10px rgba(97, 96, 96, 0.582);
+}
+
+.addTodoBtn:active{
+  transform: scale(0.98);
+}
+
 
 

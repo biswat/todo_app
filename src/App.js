@@ -47,7 +47,7 @@ function App() {
                 <br/>
                 <DatePicker placeholderText="End Date" style={{ margin: "0.7rem" }} selected={newEvent.end} onChange={(end) => setNewEvent({ ...newEvent, end })} />
                 <br/>
-                <button stlye={{ margin: "1rem", padding: "0.3rem", fontSize: "1.3rem", backgroundColor:"#8B5CF6", color:"#fff"}} onClick={handleAddEvent}>
+                <button className="addTodoBtn" stlye={{ margin: "1rem", padding: "0.4rem", fontSize: "1.3rem", backgroundColor:"#8B5CF6", color:"#fff"}} onClick={handleAddEvent}>
                     Add Todo
                 </button>
             </div>
