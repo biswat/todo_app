@@ -6,7 +6,11 @@ body{
   text-align: center;
 }
 
-
+input{
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
 
 
 
