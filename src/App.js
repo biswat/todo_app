@@ -49,7 +49,7 @@ function App() {
                     Add Todo
                 </button>
             </div>
-            <Calendar localizer={localizer} events={allEvents} startAccessor="start" endAccessor="end" style={{ height: 500, margin: "50px" }} />
+            <Calendar localizer={localizer} events={allEvents} startAccessor="start" endAccessor="end" style={{ height: 500, margin: "50px", borderRadius: "0.4rem" }} />
             
         </div>
     );
